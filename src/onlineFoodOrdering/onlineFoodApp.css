@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+}
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: #F6F1F1;  /* fallback for old browsers */
+    
+   }
+
+.nav-link{
+    text-decoration: none;
+    margin: 2rem;
+    background-color:#146C94;
+    padding: 0.5rem;
+    border-radius: 0.3rem; 
+    color: white;
+}
+
+.landing-text{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    color: black;
+}
+
+.container{
+    display: flex;
+
+    
+}
+
+.filter-container{  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 25px;
+}
+
+.filter-container > * {
+    margin: 5px;
+}
+
+.food-item-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border-radius:10px ;
+}
+
+.card{
+    background-color: #AFD3E2;
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 2px gainsboro;
+    border-radius: 10px;
+}
+
+.card > *{
+   flex-grow: 1;
+}
+
+
+.card button{
+    background-color: #19A7CE;
+    padding: 5px;
+    align-self: center;
+    border-radius: 5px;
+    margin-bottom:5px ;
+    border: none;
+    color: whitesmoke;
+}
+
+.search-bar{
+    outline: none;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.search-bar:focus{
+    background-color: #AFD3E2;
+}
+
+.cart-card{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-conatiner{
+    margin: 10px;
+    text-align: center;
+}
+
+.detail-conatiner > *{
+    margin: 5px;
+}
+
+.detail-conatiner button{
+    background-color: #19A7CE;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom:5px ;
+    border: none;
+    color: whitesmoke;
+}
+
+.cartCounter{
+    text-align: center;
+    width: 20px;
+    color: black;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(100%,-40%);
+    background-color: #AFD3E2;
+    border-radius: 50%;
+}
+
+
