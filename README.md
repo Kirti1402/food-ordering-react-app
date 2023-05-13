@@ -3,7 +3,7 @@
 >Created a mini project with tech HTML5, CSS and React.
 > Contain Home Page, Menu Page and Cart Page.
 
-## Feature 
+## Feature's implemented
 
 ### `Home Page`
 * Simple heading is displayed no functionality added
